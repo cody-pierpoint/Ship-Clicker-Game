@@ -1,8 +1,4 @@
 using Alex;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Cody
@@ -10,48 +6,35 @@ namespace Cody
     public class ShipMovement : MonoBehaviour
     {
         public GameObject shipPrefab;
-        public float speed;
         public Transform screenEdgePoint;
-        public ClickerScript clicker;
         public Transform spawnPos;
-        public float SpawnCurrency;
+        public float SpawnCurrency = 10;
         public GameObject shipParrent;
-        public int spawnAmount;
-        public int spawnCost;
-        // Start is called before the first frame update
-        void Start()
+        public static int spawnAmount = 0;
+        public ClickerScript clicky;
+        public static float boatCurrency;
+        private void Start()
         {
-            spawnCost = 10;
+            spawnAmount = 0;
+            SpawnCurrency = 15;
         }
-
-        // Update is called once per frame
-        void Update()
-        {
-            MoveShip();
-            //SpawnShip();
-        }
-
         public void SpawnShip()
         {
-            SpawnCurrency += clicker.Currency;
-            if (SpawnCurrency == 10 && spawnAmount <= 5)
+            if (clicky.Currency % 10 == 0)
             {
-                SpawnCurrency -= 10;
-                spawnAmount++;
-                Instantiate(shipPrefab,spawnPos);
-
+                Instantiate(shipPrefab,(new Vector3(spawnPos.position.x, spawnPos.position.y +Random.Range(-0.5f,1.5f), spawnPos.position.z)),Quaternion.identity, shipParrent.transform);
             }
-            MoveShip();
-            if (shipPrefab.transform.position.x >= screenEdgePoint.position.x)
-            {
-                Destroy(shipPrefab);
-                spawnAmount--;
-            }
+           
 
         }
-        public void MoveShip()
+        public void SpawnShipOverTime(int i)
         {
-            shipPrefab.transform.Translate(-gameObject.transform.right * speed * Time.deltaTime);
+            Invoke("ShipWoop", i);
         }
+      void ShipWoop()
+        {
+            Instantiate(shipPrefab, (new Vector3(spawnPos.position.x, spawnPos.position.y + Random.Range(-0.5f, 1.5f), spawnPos.position.z)), Quaternion.identity, shipParrent.transform);
+        }
+
     }
 }

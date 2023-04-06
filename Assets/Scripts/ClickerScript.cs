@@ -15,19 +15,9 @@ namespace Alex
         public void ClickerButton()
         {
             Currency++;
+            Cody.ShipMovement.boatCurrency += Currency;
             /*display text takes in a string to display a string */
             displayText.text =/* a float cannot be assigned as a string on its own */ "Ships: " + Currency;
-
-        }
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
 
         }
     }
