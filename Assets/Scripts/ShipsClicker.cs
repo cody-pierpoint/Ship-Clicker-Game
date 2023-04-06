@@ -76,18 +76,24 @@ namespace Cody
         }
         public void Click()
         {
+            //run Clickerbutton method from clickerScript
             clickerScript.ClickerButton();
+            //add ships per click to currency per click
             clickerScript.Currency += shipsPerClick;
+            //update currency text
             UpdatePointsText();
         }
         public void UpgradeInteractable()
         {
+            //if currency is >= autoclick upgrade cost 
             if (clickerScript.Currency >= autoClickUpgradeCost)
             {
+                //auto click upgrade is interactable.
                 autoClickUpgrade.interactable = true;
             }
             else
             {
+                // autoclick upgrade button is not interactable
                 autoClickUpgrade.interactable = false;
             }
             if (clickerScript.Currency >= upgradeCost)

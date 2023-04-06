@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32603 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+D:\Unity\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/3d8d252463e985f4/Documents/GitHub/Ship-Clicker-Game
+D:/Unity/Ship-Clicker-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53067
-Successfully changed project path to: C:/Users/3d8d252463e985f4/Documents/GitHub/Ship-Clicker-Game
-C:/Users/3d8d252463e985f4/Documents/GitHub/Ship-Clicker-Game
+52163
+Successfully changed project path to: D:/Unity/Ship-Clicker-Game
+D:/Unity/Ship-Clicker-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,109 @@ C:/Users/3d8d252463e985f4/Documents/GitHub/Ship-Clicker-Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13892] Host "[IP] 172.27.5.50 [Port] 0 [Flags] 2 [Guid] 2446032344 [EditorId] 2446032344 [Version] 1048832 [Id] WindowsEditor(7,NS00J004022DE04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4664] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2616376823 [EditorId] 2616376823 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RSJH2I9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13892] Host "[IP] 172.27.5.50 [Port] 0 [Flags] 2 [Guid] 2446032344 [EditorId] 2446032344 [Version] 1048832 [Id] WindowsEditor(7,NS00J004022DE04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4664] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2616376823 [EditorId] 2616376823 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RSJH2I9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 79.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 153.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/3d8d252463e985f4/Documents/GitHub/Ship-Clicker-Game/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Ship-Clicker-Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
-    Vendor:   NVIDIA
-    VRAM:     5032 MB
-    Driver:   31.0.15.1737
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8135 MB
+    Driver:   31.0.14043.1000
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Mono path[0] = 'D:/Unity/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006176 seconds.
+Register platform support module: D:/Unity/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023222 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 319 ms
-Refreshing native plugins compatible for Editor in 83.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 173.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
+- Completed reload, in  1.454 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1455ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (244ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (604ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (534ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (393ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006530 seconds.
+Registered in 0.028486 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\3d8d252463e985f4\Documents\GitHub\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\3d8d252463e985f4\Documents\GitHub\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 76.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 155.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
+- Completed reload, in  2.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (2064ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (791ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1621ms)
+			LoadAssemblies (210ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (372ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (857ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (35ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3748 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4209.
-Memory consumption went from 144.8 MB to 144.8 MB.
-Total: 4.221500 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.264200 ms MarkObjects: 3.506500 ms  DeleteObjects: 0.111200 ms)
+Unloading 3752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.6 KB). Loaded Objects now: 4211.
+Memory consumption went from 144.9 MB to 144.9 MB.
+Total: 5.114600 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.105100 ms MarkObjects: 4.398200 ms  DeleteObjects: 0.229400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,19 +163,175 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3360.833267 seconds.
+  Time since last request: 353620.438770 seconds.
+  path: Assets/Ship.prefab
+  artifactKey: Guid(20b8d725575cfdc4581a3f5a9a85c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ship.prefab using Guid(20b8d725575cfdc4581a3f5a9a85c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0308c8a757b4599dc556ddacd19afb1e') in 0.519238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.102709 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.007806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.281289 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(fe0a6ad5ed376674299b81825ad6608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(fe0a6ad5ed376674299b81825ad6608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b0addb3ab47c055d85cc5db104d99f') in 0.009220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.681566 seconds.
   path: Assets/Scripts
   artifactKey: Guid(6a0f119d06463484e902c8237cd5c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(6a0f119d06463484e902c8237cd5c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17437e2f3f6047ce71f74945dbb8a185') in 0.011818 seconds 
+Start importing Assets/Scripts using Guid(6a0f119d06463484e902c8237cd5c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17437e2f3f6047ce71f74945dbb8a185') in 0.008714 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.241250 seconds.
-  path: Assets/Scripts/ClickerScript.cs
-  artifactKey: Guid(426c7b2fb1591e14d8463977a465e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickerScript.cs using Guid(426c7b2fb1591e14d8463977a465e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b121085e7a28b332833126e4f5fc70f7') in 0.035133 seconds 
+  Time since last request: 2.617259 seconds.
+  path: Assets/Scripts/ShipMovement.cs
+  artifactKey: Guid(e4dd69c41449c874faf3e50c2e9d70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipMovement.cs using Guid(e4dd69c41449c874faf3e50c2e9d70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1156f9f41e37eaa18821fe3d2f1f64d') in 0.015333 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.589399 seconds.
-  path: Assets/Scripts/MenuManager.cs
-  artifactKey: Guid(20ac7b2c95162874382bcd5abf19db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuManager.cs using Guid(20ac7b2c95162874382bcd5abf19db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175cfd5773e6e01a59a12734213bc98e') in 0.008851 seconds 
+  Time since last request: 1.108711 seconds.
+  path: Assets/Scripts/ShipsClicker.cs
+  artifactKey: Guid(6036075a69d165b42881e4a87faf0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipsClicker.cs using Guid(6036075a69d165b42881e4a87faf0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166b57b8f2eb9c693833fd6c8391547e') in 0.008640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1074.243497 seconds.
+  path: Assets/Scripts/ShipsClicker.cs
+  artifactKey: Guid(6036075a69d165b42881e4a87faf0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipsClicker.cs using Guid(6036075a69d165b42881e4a87faf0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968312bade6bd87f96f4a87b4e11d25f') in 0.003542 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019389 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Ship-Clicker-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4222.
+Memory consumption went from 146.9 MB to 146.9 MB.
+Total: 4.114900 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.568700 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.397726 seconds.
+  path: Assets/Art/Clouds 6.png
+  artifactKey: Guid(5811d3a8e01f3414dac39cc2c173d889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Clouds 6.png using Guid(5811d3a8e01f3414dac39cc2c173d889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce93b19bc802c01bd6ebaf13ca1ac889') in 0.296291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Background 1.png
+  artifactKey: Guid(70839bcfb16c0e5449ebcd2e53d68be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Background 1.png using Guid(70839bcfb16c0e5449ebcd2e53d68be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d9ab9d10e59707caadc3984b182c5') in 0.042617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art
+  artifactKey: Guid(b4e924a192326c74ca9a6b7d65ad4ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(b4e924a192326c74ca9a6b7d65ad4ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74821ebfcba3ba93a4030d14a141b59b') in 0.010666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Clouds 4.png
+  artifactKey: Guid(67e3474b5e49d7940bf22de4f0528260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Clouds 4.png using Guid(67e3474b5e49d7940bf22de4f0528260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba676db10f63b9b4fd9a096676c5ff3') in 0.091779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Menu Border.png
+  artifactKey: Guid(32c67262f36a43a4c83dae27b72c5c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Menu Border.png using Guid(32c67262f36a43a4c83dae27b72c5c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1edc7a21b44e048a373e7aa49f06252') in 0.090375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Clouds 3.png
+  artifactKey: Guid(be480343350ad214cad9d127964c0a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Clouds 3.png using Guid(be480343350ad214cad9d127964c0a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cbfd3ee96cc56be53534971192b730') in 0.083516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Liberty Ship 1.png
+  artifactKey: Guid(c7f124de5a7d2164ca75d240cff70fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Liberty Ship 1.png using Guid(c7f124de5a7d2164ca75d240cff70fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85399347d068f3f994823f81210ca0a') in 0.057276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Liberty Ship 2 Shadow.png
+  artifactKey: Guid(3a38974e5b0edea4db504e992e805d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Liberty Ship 2 Shadow.png using Guid(3a38974e5b0edea4db504e992e805d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140d14cd6a7655904a9c2069f6065a51') in 0.099150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Clouds 8.png
+  artifactKey: Guid(c705999aef168a44db8cfc1309de0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Clouds 8.png using Guid(c705999aef168a44db8cfc1309de0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851b6c5ed9224d71a0097757f76b3436') in 0.126273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Liberty Ship 1 Reflection.png
+  artifactKey: Guid(cc86a383d928a424ba9f9fb2d1f1b9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Liberty Ship 1 Reflection.png using Guid(cc86a383d928a424ba9f9fb2d1f1b9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e102357b34d8be930376e89d7fb42cfd') in 0.036793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/GUI with pipe backing.png
+  artifactKey: Guid(b79f5b2fc66a73247a5d5dcc7500f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/GUI with pipe backing.png using Guid(b79f5b2fc66a73247a5d5dcc7500f3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6aceeac7f7c5741afa12257212bf339') in 0.122580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Clicker 1.png
+  artifactKey: Guid(8ac0c9470bada544ebe376e2c5490261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Clicker 1.png using Guid(8ac0c9470bada544ebe376e2c5490261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969be28dc30f8a1898a4c9d6c0987758') in 0.036193 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
